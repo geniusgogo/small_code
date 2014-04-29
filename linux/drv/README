@@ -1,0 +1,4 @@
+1:make clean;make
+2:sudo insmod globalcharmod.ko
+3:sudo mknod -m 666 /dev/GlobalChar c [MAJOR] [MINOR]
+4:make test;./testcase
